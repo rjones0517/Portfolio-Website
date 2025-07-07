@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Robert Jones Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,
+    300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./scripts.js" defer></script>
+    <link rel="icon" type="image/jpg" href="/Images/Portrait.png">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo-holder">
+            <div class="logo">RJ</div>
+            <div class="logo-text">Portfolio Website</div>
+
+        </a>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="mailto:jones_robert0517@att.net" class="button">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+                <svg class="w-6 h-6 text-gray-800
+                dark:text-white" aria-hidden="true" 
+                xmlns="http://www.w3.org/2000/svg" 
+                width="24" height="24" fill="none" 
+                viewBox="0 0 24 24">
+                    <path stroke="currentColor" 
+                    stroke-linecap="round" 
+                    stroke-width="2" d="M5 7h14M5 
+                    12h14M5 17h10"/>
+                  </svg>
+                  
+            </a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero container">
+            <div class="hero-blue">
+                <div>
+                    <h1><small>Hello! I'm</small>
+                        Robert Jones
+                    </h1>
+                    <p>
+                        Recent Texas State Computer Science graduate with a passion for graphics, game development, and security. 
+                        Experienced in C++, JavaScript, and 3D modeling with GopherGFX. 
+                        Eager to grow in innovative, hands-on technical roles. 
+                    </p>
+                    <div class="call-to-action">
+                        <a href="/Jones_Robert_Resume_2025.pdf" class="button black">View Resume</a>
+                        <a href="mailto:jones_robert0517@att.net" class="button">Contact Me</a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#">
+                            <img src="./Images/github.png"
+                                 alt="GitHub"
+                                 width = 48 >
+
+                        </a>
+                        <a href="#">
+                            <img src="./Images/linkedin.png"
+                                 alt="Limkedin"
+                                 width = 48 >
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-yellow">
+                <img src="/Images/images.png" 
+                alt="Robert Jones" width="100%">
+            </div>
+        </section>
+        <section id="projects" class="bento">
+            <h2>
+                <small>Previous</small>
+                Completed Projects
+            </h2>
+            <div class="bento-grid">
+                <a href="https://cs-4388-fall-2024.github.io/Space-Shooter/"  class="bento-item" target="_blank">
+                    <video src="/Videos/spaceShooter.mp4" muted playsinline loop></video>
+                </a>
+                <a href="https://cs-4388-fall-2024.github.io/textureMapping/"  class="bento-item" target="_blank">
+                    <video src="/Videos/textureMapping.mp4" muted playsinline></video>
+                </a>
+                <div class="bento-item">
+                    <img src="/Images/spaceShooter.png" 
+                    alt="2D Space Shooter"
+                    width="100%">
+                </div>
+                <div class="bento-item">
+                    <img src="/Images/spaceShooter.png" 
+                    alt="2D Space Shooter"
+                    width="100%">
+                </div>
+                <a href="https://cs-4388-fall-2024.github.io/antsDance/"  class="bento-item" target="_blank">
+                    <video src="/Videos/antsDance.mp4" muted playsinline></video>
+                </a>
+                <a href="https://cs-4388-fall-2024.github.io/haroldsCrayon/"  class="bento-item" target="_blank">
+                    <video src="/Videos/haroldsCrayon.mp4" muted playsinline></video>
+                </a>
+            </div>
+        </section>
+        <section id="skills" class="skills container">
+            <h2>
+                <small>About me</small>
+                Skills
+            </h2>
+            <div class="holder-blue">
+                <div class="left-column">
+                    <h3>Frontend</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                    </ul>
+                    <h3>Security</h3>
+                    <ul>
+                        <li>Firewall Permissions</li>
+                        <li>SQL Injecions</li>
+                        <li>Ubuntu</li>
+                        <li>Kali</li>
+                    </ul>
+                </div>
+                <div class="right-column">
+                    <h3>A bit about me</h3>
+                    <p>
+                        Hi Im Robert, I have Developed 3D graphics projects using GopherGFX, including animated characters and models. 
+                        Built an AI Connect 4 game in C++ with Minimax and alpha-beta pruning, comparing multiple evaluation strategies.
+                    </p>
+                    <p>
+                        Currently working on a ...
+                    </p>
+                </div>
+            </div>
+
+        </section>
+        <section class="logos conatiner">
+            <div class="marquee">
+                <div class="track">
+                    <img src="/Images/github.png" alt="GitHub" width="128">
+                    <img src="/Images/html.png" alt="HTML" width="128">
+                    <img src="/Images/vscode.png" alt="VSCode" width="128">
+                    <img src="/Images/css.png" alt="CSS" width="128">
+                    <img src="/Images/typeScript.png" alt="typeScript" width="128">
+                    <img src="/Images/icons8-c++-48.png" alt="C++" width="128">
+                    <img src="/Images/github.png" alt="GitHub" width="128">
+                    <img src="/Images/html.png" alt="HTML" width="128">
+                    <img src="/Images/vscode.png" alt="VSCode" width="128">
+                    <img src="/Images/css.png" alt="CSS" width="128">
+                    <img src="/Images/typeScript.png" alt="typeScript" width="128">
+                    <img src="/Images/icons8-c++-48.png" alt="C++" width="128">
+                    <img src="/Images/github.png" alt="GitHub" width="128">
+                    <img src="/Images/html.png" alt="HTML" width="128">
+                    <img src="/Images/vscode.png" alt="VSCode" width="128">
+                    <img src="/Images/css.png" alt="CSS" width="128">
+                    <img src="/Images/typeScript.png" alt="typeScript" width="128">
+                    <img src="/Images/icons8-c++-48.png" alt="C++" width="128">
+                    <img src="/Images/github.png" alt="GitHub" width="128">
+                    <img src="/Images/html.png" alt="HTML" width="128">
+                    <img src="/Images/vscode.png" alt="VSCode" width="128">
+                    <img src="/Images/css.png" alt="CSS" width="128">
+                    <img src="/Images/typeScript.png" alt="typeScript" width="128">
+                    <img src="/Images/icons8-c++-48.png" alt="C++" width="128">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
